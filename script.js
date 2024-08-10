@@ -7,7 +7,7 @@ function promises() {
 	})	
 }
 
-promises
+promises()
 	.then((number)=>{
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
